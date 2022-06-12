@@ -5,7 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Eddievin/mirrorBot/issues"
   },
-  "homepage": "https://github.com/Eddievin/mirrorBot#readme"
+  "homepage": "https://github.com/Eddievin/mirrorBot#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
